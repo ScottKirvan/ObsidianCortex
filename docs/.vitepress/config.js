@@ -3,6 +3,12 @@ export default {
   title: 'BojuBot',
   description: 'A Claude Code agent inside your Obsidian vault',
 
+  vite: {
+    ssr: {
+      noExternal: ['bojuvue'],
+    },
+  },
+
   head: [
     ['link', { rel: 'icon', href: '/BojuBot/favicon.ico' }],
   ],
