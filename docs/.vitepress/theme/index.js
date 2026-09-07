@@ -1,6 +1,7 @@
 import DefaultTheme from 'vitepress/theme'
 import { h } from 'vue'
 import './custom.css'
+import 'bojuvue/style.css'
 import VersionBadge from './VersionBadge.vue'
 import * as BojuVue from 'bojuvue/vitepress'
 
