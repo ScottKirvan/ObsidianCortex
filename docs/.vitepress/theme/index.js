@@ -32,7 +32,7 @@ export default {
             }),
             h(BojuVue.BVButton, {
               text: "User Guide",
-              href: "http://localhost:5173/BojuBot/guide/getting-started.html",
+              href: "/guide/getting-started.html",
             }),
             h(BojuVue.BVMoreButton, {
               //text: "...",
