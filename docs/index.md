@@ -8,7 +8,7 @@ hero:
   image:
     src: /logo.png
     alt: BojuBot
-  actions:
+  actions_dead:
     - theme: brand
       text: Get Started
       link: /guide/getting-started
