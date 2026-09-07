@@ -28,6 +28,6 @@
     "vitepress": "^1.6.4"
   },
   "dependencies": {
-    "bojuvue": "^0.4.0"
+    "bojuvue": "^0.4.1"
   }
 }
