@@ -109,7 +109,7 @@ export const DEFAULT_BRAND = {
   },
 } as const;
 
-const DEFAULT_GREETINGS = welcomeData.welcome.greetings as WelcomeGreetings;
+const DEFAULT_GREETINGS: WelcomeGreetings = welcomeData.welcome.greetings;
 const DEFAULT_TIPS: string[] = welcomeData.welcome.tips;
 
 /**
